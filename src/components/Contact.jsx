@@ -6,13 +6,13 @@ const Contact = () => {
       <h1 className='text-center text-xl font-bold'>Contact Me</h1>
       <h2 className='text-center text-lg'>Have a project idea? Feel free to send me a message.</h2>
       <form className='flex flex-col gap-4 mt-6' action="">
-        <div className="flex justify-between gap-4">
-          <div className="flex flex-col gap-2 w-[50%]">
+        <div className="w-full flex justify-between">
+          <div className="flex flex-col gap-2 w-[45%]">
             <label className='font-bold' htmlFor="">Name</label>
             <input className='input' type="text" placeholder="Enter your name" />
           </div>
 
-          <div className="flex flex-col gap-2 w-[50%]">
+          <div className="flex flex-col gap-2 w-[45%]">
             <label className='font-bold' htmlFor="">Email</label>
             <input className='input' type="email" placeholder="Enter your email" />
           </div>
