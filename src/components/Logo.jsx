@@ -15,7 +15,7 @@ import image12 from '../assets/LOGO STUFFS/HO-1.jpg'
 
 const Logo = () => {
     return (
-        <div className='grid grid-cols-3 md:grid-cols-6 gap-2'>
+        <div className='grid grid-cols-4 md:grid-cols-6 gap-2'>
             <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image1} alt="image1" />
             <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image2} alt="image2" />
             <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image3} alt="image3" />

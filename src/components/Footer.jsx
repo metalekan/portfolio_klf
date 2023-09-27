@@ -9,16 +9,15 @@ import { BiLogoInstagramAlt, BiLogoFacebookCircle, } from 'react-icons/bi';
 
 const Footer = () => {
   return (
-    <footer className='w-full glass_contact text-white px-2 md:px-10'>
-      <div className="flex items-center justify-between border-dashed border-b py-3">
+    <footer className='w-full bg-cyan text-white px-2 md:px-10'>
+      <div className="flex items-center justify-between border-b py-3">
         <h1 className='font-bold text-lg'>Lets Connect Here</h1>
-        <button className="noselect btn_one bg-white text-cyan hover:bg-white">
-          <span className="text font-bold">Hire Me</span>
-          <a href="/" className="icon unq"><RiExternalLinkFill /></a>
+        <button className="button">
+          <a href="/">Hire Me</a>
         </button>
       </div>
 
-      <div className="flex flex-wrap justify-between py-4 font-light">
+      <div className="flex flex-wrap gap-8 md:justify-between py-4 font-light">
         <div className="flex flex-col gap-2">
           <span className='font-semibold'>Olatinwa .J</span>
           <p className='font-light'>Let's Collaborate and Design something amazing.</p>
@@ -69,12 +68,11 @@ const Footer = () => {
           <span className='font-semibold'>Join Our Newsletter</span>
           <div className="flex items-center relative">
             <input className='input outline-0 border rounded' type="email" placeholder="Enter your email" />
-            <RiExternalLinkFill className='absolute right-0 text-lg' />
           </div>
         </div>
       </div>
 
-      <div className="flex justify-between font-light border-dashed border-t py-2">
+      <div className="flex justify-between font-light border-t border-white py-2">
         <div className="flex items-center flex-wrap">
           <span className='pe-2'>User Terms & Condition</span>
           <span className='border-s ps-2' >Privacy Policy</span>

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='min-h-screen w-full borde flex flex-col text-white bg-black px-2 md:px-10'>
-      <h1 className='text-center text-xl font-bold'>Contact Me</h1>
-      <h2 className='text-center text-lg'>Have a project idea? Feel free to send me a message.</h2>
+    <section className='min-h-screen w-full borde flex flex-col text-white bg-black px-2 md:px-10 pb-20 md:pb-0'>
+      <h1 className='text-center text-xl font-extrabold text_gradient'>Contact Me</h1>
+      <h2 className='text-center md:text-lg'>Have a project idea? Feel free to send me a message.</h2>
       <form className='flex flex-col gap-4 mt-6' action="">
         <div className="w-full flex justify-between">
           <div className="flex flex-col gap-2 w-[45%]">
@@ -30,7 +30,7 @@ const Contact = () => {
           {/* <input className='input' type="text" /> */}
         </div>
 
-        <button className='rounded btn_three bg-cyan hover:bg-white hover:text-cyan p-2 font-semibold'>Send Message</button>
+        <button className='rounded btn_three bg-cyan hover:bg-white hover:text-cyan p-3 font-bold text-md md:text-lg'>Send Message</button>
       </form>
     </section>
   )

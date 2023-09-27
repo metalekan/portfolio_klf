@@ -8,7 +8,7 @@ export default {
       white: "#FFFFFF",
       cyan: "#016364",
       black: "#101010",
-      offWhite: "#EBFBFF",
+      dimWhite: "rgba(255, 255, 255, 0.7)",
     },
     fontFamily: {
       'nunito': ['Nunito Sans', 'sans-serif']

@@ -1,36 +1,36 @@
 export const myTestimonials = [
   {
-    name: "John Saw",
+    name: "Ayo Bamidele",
     image: "",
     testimony:
       "Dare is a great Desgner! Whether its a quick graphic design piece that we need to roll out on short notice, Dare delivers.He was able to take existing design elements and create a fresh look for our business with a consistent theme. We highly recommend",
   },
   {
-    name: "James Welsh",
+    name: "Tunde Fash",
     image: "",
     testimony:
       "Dare is a great Desgner! Whether its a quick graphic design piece that we need to roll out on short notice, Dare delivers.He was able to take existing design elements and create a fresh look for our business with a consistent theme. We highly recommend",
   },
   {
-    name: "Jordan Sky",
+    name: "Sean Daniels",
     image: "",
     testimony:
       "Dare is a great Desgner! Whether its a quick graphic design piece that we need to roll out on short notice, Dare delivers.He was able to take existing design elements and create a fresh look for our business with a consistent theme. We highly recommend",
   },
   {
-    name: "James kovan",
+    name: "Salami Taiwo",
     image: "",
     testimony:
       "Dare surpassed my expectations at every step in the logo and other design process, from his thoughtful and imaginative initial concepts all the way to the final round of fine-tuning. He was a real pleasure to work with",
   },
   {
-    name: "Peter Paul",
+    name: "Peter Olatunji",
     image: "",
     testimony:
       "Dare surpassed my expectations at every step in the logo and other design process, from his thoughtful and imaginative initial concepts all the way to the final round of fine-tuning. He was a real pleasure to work with",
   },
   {
-    name: "Peter Pan",
+    name: "Pamela Kings",
     image: "",
     testimony:
       "Dare surpassed my expectations at every step in the logo and other design process, from his thoughtful and imaginative initial concepts all the way to the final round of fine-tuning. He was a real pleasure to work with",
