@@ -76,10 +76,10 @@ const Footer = () => {
 
       <div className="flex justify-between font-light border-dashed border-t py-2">
         <div className="flex items-center flex-wrap">
-          <span>User Terms & Condition</span>
+          <span className='pe-2'>User Terms & Condition</span>
           <span className='border-s ps-2' >Privacy Policy</span>
         </div>
-        <span>Copyright Olatinwa .J</span>
+        <span>Copyright © Damilare</span>
       </div>
     </footer>
   )
