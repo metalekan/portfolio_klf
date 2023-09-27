@@ -1,23 +1,66 @@
 import React from 'react'
+
 import { RiExternalLinkFill } from 'react-icons/ri';
+import { NavLink } from 'react-router-dom';
 
 const Hero = () => {
     return (
         <main className='h-screen w-full bg-black hero_section animate__animated animate__fadeIn text-dimWhite'>
-            <div className="flex flex-col justify-center md:w-full h-[100%] md:px-10 px-2 glass">
-                <h1 className='text-[2rem] md:text-[4rem] font-bold'>Hello!!! I'm <span className='text_gradient'>Damilare Olatinwa Jacob </span></h1>
-                <h2 className='text-xl'>A Graphic Designer and Brand Manager</h2>
-                <p className='w-full md:w-[50%]'>Damilare Olatinwa ensures brand consistency and innovative solutions, keeping an eye on trends to provide design.</p>
-                <div className="flex gap-7 md:gap-14 mt-12">
-
+            <div className="glass h-[100%]">
+                <header className='w-full flex items-center justify-between text-white py-3 md:py-5 px-2 md:px-10 z-10 sticky top-0'>
+                    <div className="logo font-extrabold text-lg">
+                        <span className='text_gradient2 font-extrabold'>DAMILARE</span>
+                    </div>
+                    <nav className="hidden md:block">
+                        <ul className='flex gap-8'>
+                            <li>
+                                <NavLink to="/">
+                                    Home
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/">
+                                    About
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/">
+                                    Contact
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/portfolio">
+                                    My Projects
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/">
+                                    Resume
+                                </NavLink>
+                            </li>
+                        </ul>
+                    </nav>
                     <button className="button">
-
-                        <a href="/" className="flex items-center">Portfolio<RiExternalLinkFill /></a>
+                        <span className="text-sm font-semibold">Download CV</span>
                     </button>
+                </header>
 
-                    <button className="button">
-                        <a href='/' className="font-semibold">Hire me</a>
-                    </button>
+                <div className="flex flex-col justify-center h-full md:w-full md:px-10 px-2">
+                    <h1 className='text-[2rem] md:text-[4rem] font-bold'>Hello!!! I'm <span className='text_gradient'>Damilare Olatinwa Jacob </span></h1>
+                    <h2 className='text-xl'>A Graphic Designer and Brand Manager</h2>
+                    <p className='w-full md:w-[50%]'>Damilare Olatinwa ensures brand consistency and innovative solutions, keeping an eye on trends to provide design.</p>
+                    <div className="flex gap-7 md:gap-14 mt-12">
+
+                        <button className="button">
+
+                            <a href="/" className="flex items-center">Portfolio<RiExternalLinkFill /></a>
+                        </button>
+
+                        <button className="button">
+                            <a href='/' className="font-semibold">Hire me</a>
+                        </button>
+                    </div>
+
                 </div>
 
             </div>
