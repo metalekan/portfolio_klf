@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className='w-full bg-cyan text-white px-2 md:px-10'>
       <div className="flex items-center justify-between border-b py-3">
         <h1 className='font-bold text-lg'>Lets Connect Here</h1>
-        <button className="button">
+        <button className="button_neg p-1 md:p-2">
           <a href="/">Hire Me</a>
         </button>
       </div>

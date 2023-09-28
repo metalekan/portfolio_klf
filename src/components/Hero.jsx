@@ -7,9 +7,9 @@ const Hero = () => {
     return (
         <main className='h-screen w-full bg-black hero_section animate__animated animate__fadeIn text-dimWhite'>
             <div className="glass h-[100%]">
-                <header className='w-full flex items-center justify-between text-white py-3 md:py-5 px-2 md:px-10 z-10 sticky top-0'>
+                <header className='w-full flex items-center justify-between text-white py-3 md:py-5 px-2 md:px-10 z-10'>
                     <div className="logo font-extrabold text-lg">
-                        <span className='text_gradient2 font-extrabold'>DAMILARE</span>
+                        <span className='text-dimWhite font-extrabold md:text-xl'>DAMILARE</span>
                     </div>
                     <nav className="hidden md:block">
                         <ul className='flex gap-8'>
@@ -40,8 +40,8 @@ const Hero = () => {
                             </li>
                         </ul>
                     </nav>
-                    <button className="button">
-                        <span className="text-sm font-semibold">Download CV</span>
+                    <button className="button_pos">
+                        <span className="text-[12px] p-2 md:text-sm font-semibold">Download CV</span>
                     </button>
                 </header>
 
@@ -51,12 +51,12 @@ const Hero = () => {
                     <p className='w-full md:w-[50%]'>Damilare Olatinwa ensures brand consistency and innovative solutions, keeping an eye on trends to provide design.</p>
                     <div className="flex gap-7 md:gap-14 mt-12">
 
-                        <button className="button">
+                        <button className="button_pos p-2">
 
                             <a href="/" className="flex items-center">Portfolio<RiExternalLinkFill /></a>
                         </button>
 
-                        <button className="button">
+                        <button className="button_neg p-2">
                             <a href='/' className="font-semibold">Hire me</a>
                         </button>
                     </div>

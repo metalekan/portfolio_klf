@@ -47,13 +47,13 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 .glass_testimony {
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8.3px);
-  -webkit-backdrop-filter: blur(8.3px);
-  border: 1px solid rgba(1, 99, 100, 0.11);
+/* From https://css.glass */
+background: rgba(134, 110, 231, 0.01);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.9px);
+-webkit-backdrop-filter: blur(9.9px);
 }
-
 .glass_contact {
   background: rgba(1, 99, 100, 0.81);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -62,14 +62,13 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   border: 1px solid rgba(1, 99, 100, 0.11);
 }
 
-.glass_footer {
+.glass_nav{
   /* From https://css.glass */
-  background: rgba(131, 234, 241, 0.86);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(131, 234, 241, 0.38);
+background: rgba(134, 110, 231, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.4px);
+-webkit-backdrop-filter: blur(13.4px);
 }
 
 /* Scroll Snap */
@@ -213,4 +212,48 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 .button:active::before {
   scale: 0.7;
+}
+
+.button_neg{
+  box-sizing: border-box;
+  background-color: #212121;
+  border: 5px solid #222;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          rgba(0, 0, 0, 0.23) 0px 6px 6px,
+          inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all ease-in-out 0.3s;
+}
+
+.button_neg:hover{
+  box-shadow: rgba(193, 44, 223, 0.19) 0px 10px 20px,
+  rgba(193, 44, 223, 0.23) 0px 6px 6px,
+  inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+  inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+border: 5px solid #b671d6;
+
+}
+
+.button_pos{
+  box-sizing: border-box;
+  background-color: #212121;
+  box-shadow: rgba(193, 44, 223, 0.19) 0px 10px 20px,
+  rgba(193, 44, 223, 0.23) 0px 6px 6px,
+  inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+  inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+border: 5px solid #b671d6;
+  transition: all ease-in-out 0.3s;
+
+}
+
+.button_pos:hover{
+  box-sizing: border-box;
+  background-color: #212121;
+  border: 5px solid #222;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          rgba(0, 0, 0, 0.23) 0px 6px 6px,
+          inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all ease-in-out 0.3s;
+
 }

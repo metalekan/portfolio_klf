@@ -9,7 +9,7 @@ import image5 from '../assets/PRODUCTS/roll up.jpg'
 
 const ProductsCard = () => {
     return (
-        <div className="bg-black flex justify-center h-[60vh] shadow-2xl px-8">
+        <div className="bg-black flex justify-center h-[60vh] px-8">
             <div class="container md:w-[60%] scroll-1">
                 <img className='w-[300px] h-[100%] border object-cover card' src={image2} alt="" />
                 <img className='w-[300px] h-[100%] border object-cover card' src={image1} alt="" />

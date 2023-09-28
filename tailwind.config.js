@@ -7,7 +7,7 @@ export default {
       gray: { 100: "#D9D9D9", 200: "#A9A9A9", 300: "#B1B1B1" },
       white: "#FFFFFF",
       cyan: "#016364",
-      black: "#101010",
+      black: "#212121",
       dimWhite: "rgba(255, 255, 255, 0.7)",
     },
     fontFamily: {
