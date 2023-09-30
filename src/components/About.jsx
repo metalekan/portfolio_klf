@@ -22,7 +22,7 @@ const About = () => {
             <img className="rounded-xl object-cover" src={dami} alt="dami" />
           </div>
           <div className="flex flex-col justify-between md:w-[40%] text-dimWhite">
-            <p className='font-light text-center md:text-start leading-8'>Damilare Olatinwa .J is a skilled Graphic Designer and adept Brand Manager, merging creativity with strategic expertise. With a solid foundation in design principles and a flair for capturing brand essence, Olatinwa excels in delivering cohesive brand experience. From logos, fliers, to branding colateral. Damilare Olatinwa ensures brands consistency and innovative solutions, keeping an eye on industry trends to provide cutting-edge design. <br /> Collaborate with Damilare Olatinwa elevate your brand to new heights.</p>
+            <p className='font-light text-center md:text-start leading-6'>Damilare Olatinwa .J is a skilled Graphic Designer and adept Brand Manager, merging creativity with strategic expertise. With a solid foundation in design principles and a flair for capturing brand essence, Olatinwa excels in delivering cohesive brand experience. From logos, fliers, to branding colateral. Damilare Olatinwa ensures brands consistency and innovative solutions, keeping an eye on industry trends to provide cutting-edge design. <br /> Collaborate with Damilare Olatinwa elevate your brand to new heights.</p>
             <div className="flex flex-col self-end md:self-start text-sm md:text-md font-thin mt-10">
               <div className="flex items-center gap-1">
                 <HiOutlineMail />

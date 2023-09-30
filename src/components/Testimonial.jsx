@@ -56,7 +56,7 @@ const Testimonial = () => {
       <div className="grid md:grid-cols-3 gap-5 mt-[2rem]">
         {
           myTestimonials.map((review, index) => (
-            <div key={index} className="flex flex-col justify-between px-3 py-4 rounded-lg h-[269px] glass_testimony">
+            <div key={index} className="flex flex-col gap-7 justify-between px-3 py-4 rounded-lg glass_testimony">
               <div className="flex gap-4">
                 <img className='rounded-full object-cover w-[50px] h-[50px]' src={review.image} alt="" />
                 <div className="flex flex-col">
