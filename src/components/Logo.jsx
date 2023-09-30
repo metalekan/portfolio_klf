@@ -16,55 +16,55 @@ import image12 from '../assets/LOGO STUFFS/HO-1.jpg'
 
 const logo = [
     {
-      id: 1,
-      imgage: image1
+        id: 1,
+        imgage: image1
     },
     {
-      id: 2,
-      imgage: image2
+        id: 2,
+        imgage: image2
     },
     {
-      id: 3,
-      imgage: image3
+        id: 3,
+        imgage: image3
     },
     {
-      id: 4,
-      imgage: image4
+        id: 4,
+        imgage: image4
     },
     {
-      id: 5,
-      imgage: image5
+        id: 5,
+        imgage: image5
     },
     {
-      id: 6,
-      imgage: image6
+        id: 6,
+        imgage: image6
     },
     {
-      id: 7,
-      imgage: image7
+        id: 7,
+        imgage: image7
     },
     {
-      id: 8,
-      imgage: image8
+        id: 8,
+        imgage: image8
     },
     {
-      id: 9,
-      imgage: image9
+        id: 9,
+        imgage: image9
     },
     {
-      id: 10,
-      imgage: image10
+        id: 10,
+        imgage: image10
     },
     {
-      id: 11,
-      imgage: image11
+        id: 11,
+        imgage: image11
     },
     {
-      id: 12,
-      imgage: image12
+        id: 12,
+        imgage: image12
     }
-  ]
-  
+]
+
 const Logo = () => {
     return (
         <div className='grid grid-cols-3 md:grid-cols-6 gap-2'>
@@ -72,7 +72,7 @@ const Logo = () => {
                 logo.map((item) => (
                     <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300 shadow-xl' loading='lazy' src={item.imgage} alt={item.imgage} />
                 ))
-            }        
+            }
         </div>
 
     )
