@@ -19,7 +19,7 @@ const Footer = () => {
 
       <div className="flex flex-wrap gap-8 md:justify-between py-4 font-light">
         <div className="flex flex-col gap-2">
-          <span className='font-semibold'>Olatinwa .J</span>
+          <span className='font-semibold'>Olatinwa J</span>
           <p className='font-light'>Let's Collaborate and Design something amazing.</p>
           <div className="flex items-center gap-3 text-[2rem]">
             <BiLogoInstagramAlt className='hover:scale-125 duration-500' />
@@ -71,7 +71,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <div className="flex justify-between font-light border-t border-white py-2">
         <div className="flex items-center flex-wrap">
           <span className='pe-2'>User Terms & Condition</span>

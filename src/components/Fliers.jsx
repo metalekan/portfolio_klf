@@ -13,22 +13,65 @@ import image10 from '../assets/FLIERS/Easter-Faith-Conference.jpg'
 import image11 from '../assets/FLIERS/Afro-Beats-Party.jpg'
 import image12 from '../assets/FLIERS/Eldera FOr Her.jpg'
 
+const flier = [
+  {
+    id: 1,
+    imgage: image1
+  },
+  {
+    id: 2,
+    imgage: image2
+  },
+  {
+    id: 3,
+    imgage: image3
+  },
+  {
+    id: 4,
+    imgage: image4
+  },
+  {
+    id: 5,
+    imgage: image5
+  },
+  {
+    id: 6,
+    imgage: image6
+  },
+  {
+    id: 7,
+    imgage: image7
+  },
+  {
+    id: 8,
+    imgage: image8
+  },
+  {
+    id: 9,
+    imgage: image9
+  },
+  {
+    id: 10,
+    imgage: image10
+  },
+  {
+    id: 11,
+    imgage: image11
+  },
+  {
+    id: 12,
+    imgage: image12
+  }
+]
 
 const Fliers = () => {
   return (
     <div className='grid grid-cols-3 md:grid-cols-6 gap-3'>
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image1} alt="image1" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image2} alt="image2" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image3} alt="image3" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image4} alt="image4" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image5} alt="image5" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image6} alt="image6" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image7} alt="image7" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image8} alt="image8" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image9} alt="image9" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image10} alt="image10" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image11} alt="image11" />
-      <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300' loading='lazy' src={image12} alt="image12" />
+      {
+        flier.map((item)=> (
+          <img className='object-cover rounded-md w-[350px] hover:scale-105 duration-300 shadow-xl' loading='lazy' src={item.imgage} alt={item.imgage} />
+        ))
+      }
     </div>
   )
 }

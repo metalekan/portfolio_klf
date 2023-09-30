@@ -40,13 +40,13 @@ const Hero = () => {
                             </li>
                         </ul>
                     </nav>
-                    <button className="button_pos">
+                    <button className="button_neg">
                         <span className="text-[12px] p-2 md:text-sm font-semibold">Download CV</span>
                     </button>
                 </header>
 
                 <div className="flex flex-col justify-center h-full md:w-full md:px-10 px-2">
-                    <h1 className='text-[2rem] md:text-[4rem] font-bold'>Hello!!! I'm <span className='text_gradient'>Damilare Olatinwa Jacob </span></h1>
+                    <h1 className='text-[2rem] md:text-[4rem] font-bold'>Hello!!! I'm <span className='text_gradient'>Damilare Olatinwa Jacobs</span></h1>
                     <h2 className='text-xl'>A Graphic Designer and Brand Manager</h2>
                     <p className='w-full md:w-[50%]'>Damilare Olatinwa ensures brand consistency and innovative solutions, keeping an eye on trends to provide design.</p>
                     <div className="flex gap-7 md:gap-14 mt-12">
