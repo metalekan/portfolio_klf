@@ -78,6 +78,7 @@ const Footer = () => {
         </div>
         <span>Copyright © Damilare</span>
       </div>
+      <div className="text-[10px] text-center">Designed by <a href="">metalekan</a></div>
     </footer>
   )
 }

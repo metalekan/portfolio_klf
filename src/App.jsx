@@ -16,7 +16,7 @@ import { Outlet } from 'react-router'
 
 const App = () => {
   return (
-    <section className=''>
+    <div className='bg-black'>
       <Hero />
       <ProductsCard />
       <About />
@@ -28,7 +28,7 @@ const App = () => {
       <Contact />
       <Footer />
       <Outlet />
-    </section>
+    </div>
   )
 }
 

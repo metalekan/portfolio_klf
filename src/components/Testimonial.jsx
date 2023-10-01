@@ -57,9 +57,9 @@ const Testimonial = () => {
         {
           myTestimonials.map((review, index) => (
             <div key={index} className="flex flex-col gap-7 justify-between px-3 py-4 rounded-lg glass_testimony">
-              <div className="flex gap-4">
-                <img className='rounded-full object-cover w-[50px] h-[50px]' src={review.image} alt="" />
-                <div className="flex flex-col">
+              <div className="flex items-center gap-4">
+                <img className='rounded-full object-cover w-[50px] h-[50px]' src={review.image} alt={review.name} />
+                <div className="flex flex-col gap-2">
                   <div className="flex text-[gold] gap-1">
                     <GiRoundStar />
                     <GiRoundStar />
