@@ -12,6 +12,13 @@ img {
   object-fit: contain;
   max-width: 100%;
 }
+
+.btn{
+  background: linear-gradient(90deg,
+      #fa725a,
+      #ea60da,
+      #ed8f57);
+}
 .tl {
   position: relative;
   max-width: 1200px;

@@ -22,9 +22,9 @@ const Footer = () => {
           <span className='font-semibold'>Olatinwa J</span>
           <p className='font-light'>Let's Collaborate and Design something amazing.</p>
           <div className="flex items-center gap-3 text-[2rem]">
-            <BiLogoInstagramAlt className='hover:scale-125 duration-500' />
-            <BiLogoFacebookCircle className='hover:scale-125 duration-500' />
-            <IoLogoWhatsapp className='hover:scale-125 duration-500' />
+            <a href="https://instagram.com/omgworksnig?igshid=MzRlODBiNWFlZA==" target='_blank'>
+            <BiLogoInstagramAlt className='hover:scale-125 duration-500 text-black' />
+            </a>
           </div>
         </div>
         <div className="flex flex-col">

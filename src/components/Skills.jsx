@@ -44,7 +44,7 @@ const Skills = () => {
           mySkills.map((item, index) => (
             <div key={index} className="flex justify-between items-center gap-2 w-full font-bold">
               <span className='basis-1/4 text-center'>{item.tool}</span>
-              <div className={`basis-1/2 h-[10px] flex bg-[#fa725a] rounded`}>
+              <div className={`basis-1/2 h-[10px] flex btn bg-[#fa725a] rounded`}>
               </div>
               <span className='basis-1/4 text-center'>{item.percentage}%</span>
             </div>
